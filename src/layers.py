@@ -1,3 +1,7 @@
+"""
+Trainable layers for the MLP. Each layer implements forward() for the forward pass
+and backward() to compute gradients and pass them to the previous layer.
+"""
 import numpy as np
 
 class Linear:
